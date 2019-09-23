@@ -1,7 +1,4 @@
 {
     "docker_id": "modelhub/pytorch-modelhub:1",
-    "external_contrib_files": [
-        {
-        }
-      ]
+    "external_contrib_files": []
 }
