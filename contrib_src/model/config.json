@@ -24,7 +24,7 @@
         "provenance": "",
         "architecture": "CNN",
         "learning_type": "Supervised",
-        "format": "pth",
+        "format": ".pth",
         "io": {
             "input": {
                 "format": ["application/json"],
