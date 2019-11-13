@@ -4,6 +4,7 @@ from torch.autograd import Variable
 from misc import to_original_shape
 import itertools
 from skimage.measure import label, regionprops
+
 def predict1(predict_sets, net):
     net.eval()
     for val_set in predict_sets:
