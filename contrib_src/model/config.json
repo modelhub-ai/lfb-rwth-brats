@@ -24,7 +24,7 @@
         "provenance": "",
         "architecture": "CNN",
         "learning_type": "Supervised",
-        "format": "pth",
+        "format": ".pth",
         "io": {
             "input": {
                 "format": ["application/json"],
@@ -95,7 +95,7 @@
             },
             "output": [{
                 "name": "Segmentation",
-                "type": "image",
+                "type": "mask_image",
                 "description": "Numpy array of shape (240,240,155) with labels. Needs header from one of the input images to save to file."
             }]
         }
